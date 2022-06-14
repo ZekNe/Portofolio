@@ -14,7 +14,7 @@ body {
 
 }   
 
-.main {
+#main {
     position:absolute;
     color:aliceblue;
     font-size: 5vh;
