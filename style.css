@@ -11,9 +11,10 @@ html {
 
 body {
     background: radial-gradient(rgb(27, 0, 53), rgb(0, 0, 0));
-}
 
-#gamename {
+}   
+
+.main {
     position:absolute;
     color:aliceblue;
     font-size: 5vh;
