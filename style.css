@@ -1,23 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-html {
-    height: 100%;
-    align-items: center;
-    justify-content: center;  
-}
-
 body {
-    background: radial-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    display: flex;
+    background-color: #222831;
+    height: 1000px;
+    justify-content: center;
 }   
 
-.main {
-    position:absolute;
-    color:aliceblue;
-    font-size: 23vh;
-    text-align: center;
-    top: 30vh;
-    width: 100vw;
+header {
+    display: flex;
+    background-color: rgba(0,0,0, 0.3);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+}
+
+header h1{
+    padding-left: 10px;
+    font-size: 1.5em;
+    
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10px;
+    list-style-type: none;
+    
+}
+
+#navbar li {
+    
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    
 }
