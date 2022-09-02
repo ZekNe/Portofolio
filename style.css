@@ -16,7 +16,7 @@ body {
 
 header {
     display: flex;
-    background-color: rgba(0,0,0, 0.2);
+    background-color: #222831;
     width: 100%;
     height: 50px;
     align-items: center;
@@ -70,7 +70,7 @@ header h1{
 main {
     top: 0px;
     display: grid;
-    grid: 1fr 1fr 1fr 1fr / 1fr ;
+    grid: 100vh 100vh 1fr 50vh / 1fr ;
 }
 
 #Intro {
@@ -104,6 +104,7 @@ main {
     font-size: 2em;
     margin-top: 100px;
     max-width: 1000px;
+    margin-bottom: 20px;
 
 }
 
@@ -183,8 +184,9 @@ main {
     display: flex; 
     flex-direction: column;
     background-color: #222831;
-    height: 100vh;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 #Projects h1 {
@@ -192,6 +194,7 @@ main {
     font-family: 'Montserrat', sans-serif;
     color:#EAEAEA;
     font-size: 2em;
+    margin-bottom: 100px;
 }
 
 #proj_list {
@@ -199,6 +202,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 1500px;
+    margin-bottom: 100px;
 
     
 }
@@ -229,6 +233,75 @@ main {
 #Contact {
     grid-row: 4 / 5;
     display: flex;
+    flex-direction: column;
     background-color: #215884;
-    height: 100vh;
+    color: #EAEAEA;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact p {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+}
+
+#Contact div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50vw;
+
+}
+
+#contact-list {
+list-style: none;
+list-style-type: none;
+text-decoration: none;
+
+}
+
+#contact-list li a {
+    text-decoration:none !important ;
+    color: #EAEAEA;
+
+}
+
+#contact-left{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#contact-right {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#contact-sep div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-sep div {
+    height: 10em;
+    width: 1px;
+    background-color: #EAEAEA;
+}
+
+footer {
+    display: flex;
+    height: 30px;
+    background-color: #222831;
+    align-items: center;
+    color: #EAEAEA;
+    justify-content: space-between;
+}
+
+#bottom-right {
+    margin-top: 10px;
 }
