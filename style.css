@@ -343,17 +343,15 @@ text-decoration: none;
 #right-form input:focus {
     outline: none; 
     border: solid 1px #EAEAEA;
-    
-
 }
 
 input[id=name]{
     padding: 10px 30px; 
     
 }
+
 input[id=email]{
     padding: 10px 30px; 
-    
 }
 
 textarea[id=message]{
@@ -367,13 +365,11 @@ button[id=btn]{
     padding: 5px 30px; 
 }
 
-
 #right-form button:focus {
     outline: none; 
     border: solid 1px #EAEAEA;
     
 }
-
 
 footer {
     display: flex;
