@@ -381,13 +381,11 @@ button[id=btn] {
     padding: 5px 30px;
 }
 
-
 #right-form button:focus {
     outline: none;
     border: solid 1px #EAEAEA;
 
 }
-
 
 footer {
     display: flex;
